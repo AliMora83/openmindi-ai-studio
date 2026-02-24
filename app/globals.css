@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    :root,
+    [data-theme="light"] {
+        --sand: #F5EDD8;
+        --clay: #C1622F;
+        --ochre: #D4903A;
+        --dusk: #1A0F0A;
+        --bark: #2E1A0E;
+        --moss: #3D5A3E;
+        --cream: #FAF6EE;
+        --smoke: #F0E8D8;
+        --gold: #E8B84B;
+        --warm-white: #FFFDF8;
+        --muted: #7A5C44;
+    }
+
+    [data-theme="dark"] {
+        --sand: #1A0F0A;
+        /* mapping dusk */
+        --clay: #C1622F;
+        --ochre: #D4903A;
+        --dusk: #1A0F0A;
+        --bark: #F5EDD8;
+        /* mapping sand text */
+        --moss: #3D5A3E;
+        --cream: #2E1A0E;
+        /* mapping `--cream` to dark bark */
+        --smoke: #1A0F0A;
+        --gold: #E8B84B;
+        --warm-white: #1A0F0A;
+        /* mapping `--warm-white` to dusk */
+        --muted: #A89F91;
+        /* lighter muted text */
+    }
+
+    body {
+        @apply bg-warm-white text-bark font-dmsans antialiased overflow-x-hidden transition-colors duration-300;
+    }
+}
+
+@layer utilities {
+    .kente-pattern-subtle {
+        background-image:
+            repeating-linear-gradient(90deg, transparent, transparent 10px, rgba(232, 184, 75, 0.03) 10px, rgba(232, 184, 75, 0.03) 20px),
+            repeating-linear-gradient(0deg, transparent, transparent 10px, rgba(193, 98, 47, 0.03) 10px, rgba(193, 98, 47, 0.03) 20px),
+            repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(61, 90, 62, 0.03) 15px, rgba(61, 90, 62, 0.03) 30px);
+    }
+
+    .kente-pattern-diagonal {
+        background-image: repeating-linear-gradient(45deg, rgba(232, 184, 75, 0.08) 0, rgba(232, 184, 75, 0.08) 2px, transparent 2px, transparent 12px);
+    }
+
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+}
