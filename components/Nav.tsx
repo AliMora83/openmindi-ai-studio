@@ -43,7 +43,7 @@ export default function Nav() {
                 <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                     <div className="flex items-center gap-2">
                         <div className="w-2 h-2 rounded-full bg-clay" />
-                        <span className="font-playfair font-black text-xl tracking-tight text-bark">
+                        <span className={`font-playfair font-black text-xl tracking-tight transition-colors ${scrolled ? "text-bark" : "text-sand"}`}>
                             OpenMindi
                         </span>
                     </div>
@@ -55,7 +55,7 @@ export default function Nav() {
                                 <a
                                     key={link.name}
                                     href={link.href}
-                                    className="font-dmsans text-sm font-medium text-bark hover:text-clay transition-colors"
+                                    className={`font-dmsans text-sm font-medium transition-colors ${scrolled ? "text-bark hover:text-clay" : "text-sand hover:text-gold"}`}
                                 >
                                     {link.name}
                                 </a>
@@ -76,7 +76,7 @@ export default function Nav() {
                     <div className="md:hidden flex items-center gap-4">
                         <button
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                            className="text-bark p-2 -mr-2"
+                            className={`p-2 -mr-2 transition-colors ${scrolled ? "text-bark" : "text-sand"}`}
                             aria-label="Toggle menu"
                         >
                             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}

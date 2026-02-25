@@ -25,7 +25,7 @@ export default function Services() {
                         <RevealWrapper
                             key={service.name}
                             delay={i * 0.1}
-                            className={service.featured ? "md:col-span-2 lg:col-span-2 lg:row-span-2" : ""}
+                            className={service.featured ? "md:col-span-2 lg:col-span-2" : ""}
                         >
                             <div
                                 className={`group h-full p-8 md:p-10 rounded-[24px] transition-all duration-300 hover:-translate-y-1.5 focus-within:-translate-y-1.5 relative overflow-hidden flex flex-col items-start ${service.featured

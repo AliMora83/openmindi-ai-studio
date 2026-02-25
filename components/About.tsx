@@ -71,7 +71,7 @@ export default function About() {
                         <RevealWrapper delay={0.1}>
                             <div className="space-y-6 font-dmsans text-muted font-light text-lg leading-[1.75]">
                                 <p>
-                                    Born Daurius Swarts — a.k.a. Ali Mora. We started with WordPress but quickly realized it was too slow for the modern web. Now, we use Next.js, React, and an advanced AI stack to build platforms that look premium and run blazingly fast.
+                                    We started with WordPress but quickly realized it was too slow for the modern web. Now, we use Next.js, React, and an advanced AI stack to build platforms that look premium and run blazingly fast.
                                 </p>
                                 <p>
                                     We don&apos;t just build websites; we build digital businesses. Whether you&apos;re a local Bloemfontein startup or an international brand, we deliver agency-quality work in days, not months.
@@ -100,11 +100,14 @@ export default function About() {
                         {/* Tools Grid */}
                         <RevealWrapper delay={0.3}>
                             <div className="flex flex-wrap gap-2 md:gap-3">
-                                {['React', 'Next.js', 'Tailwind', 'TypeScript', 'MongoDB', 'Web3'].map(tag => (
+                                {['React', 'Next.js', 'Firebase', 'Web3'].map(tag => (
                                     <span key={tag} className="font-spacemono text-[10px] md:text-xs uppercase tracking-widest px-3 md:px-4 py-2 border border-bark/10 rounded-full text-bark/70 hover:bg-bark/5 transition-colors">
                                         {tag}
                                     </span>
                                 ))}
+                                <div className="basis-full" />
+                                <br />
+                                <br />
                                 {['Claude AI', 'Gemini', 'Kimi'].map(ai => (
                                     <span key={ai} className="font-spacemono text-[10px] md:text-xs uppercase tracking-widest px-3 md:px-4 py-2 bg-clay/10 border border-clay/30 rounded-full text-clay hover:bg-clay/20 transition-colors">
                                         {ai}
