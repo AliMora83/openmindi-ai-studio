@@ -59,8 +59,8 @@ export default function Footer() {
                 </div>
 
                 <div className="flex justify-center mb-6">
-                    <a href="https://mywork.namka.cloud" target="_blank" rel="noreferrer" className="font-spacemono text-xs md:text-sm text-ochre hover:text-gold transition-colors">
-                        🔥 See our AI tools → mywork.namka.cloud
+                    <a href="https://mywork.namka.cloud/demos/website-roaster" target="_blank" rel="noreferrer" className="font-spacemono text-[0.72rem] text-ochre hover:text-gold transition-colors">
+                        🔥 Score your website free → mywork.namka.cloud/demos/website-roaster
                     </a>
                 </div>
 

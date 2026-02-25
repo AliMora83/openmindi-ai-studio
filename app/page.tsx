@@ -5,6 +5,7 @@ import Services from "@/components/Services";
 import Process from "@/components/Process";
 import Clients from "@/components/Clients";
 import Projects from "@/components/Projects";
+import Testimonials from "@/components/Testimonials";
 import Testimonial from "@/components/Testimonial";
 import AiStack from "@/components/AiStack";
 import Contact from "@/components/Contact";
@@ -19,6 +20,7 @@ export default function Home() {
             <Process />
             <Clients />
             <Projects />
+            <Testimonials />
             <Testimonial />
             <AiStack />
             <Contact />

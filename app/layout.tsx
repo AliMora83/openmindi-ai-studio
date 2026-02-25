@@ -1,7 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans, Space_Mono } from "next/font/google";
-import { ThemeProvider } from "@/components/ThemeProvider";
 import Cursor from "@/components/ui/Cursor";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -26,9 +25,9 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "OpenMindi — AI-Powered Web Studio | South Africa",
+    title: "OpenMindi Studio | Premium Web Design & Development",
     description:
-        "AI-powered design and React development studio from South Africa. We build landing pages, SaaS interfaces, brand identity, and Web3 platforms — 3× faster with AI. From $300.",
+        "AI-powered web design and React development from South Africa. We build premium, high-converting websites in days, not weeks.",
     keywords: [
         "React developer South Africa",
         "AI web studio",
@@ -39,8 +38,8 @@ export const metadata: Metadata = {
         "brand identity South Africa",
     ],
     openGraph: {
-        title: "OpenMindi — AI-Powered Web Studio",
-        description: "Design + React + AI. We build faster, you launch sooner.",
+        title: "OpenMindi Studio | Premium Web Design & Development",
+        description: "AI-powered web design and React development from South Africa. We build premium, high-converting websites in days, not weeks.",
         url: "https://openmindi.co.za",
         type: "website",
     },
@@ -59,12 +58,10 @@ export default function RootLayout({
             <body
                 className={`${playfair.variable} ${dmSans.variable} ${spaceMono.variable} font-dmsans antialiased bg-warm-white text-bark transition-colors duration-300 overflow-x-hidden`}
             >
-                <ThemeProvider attribute="data-theme" defaultTheme="light">
-                    <Cursor />
-                    <Nav />
-                    {children}
-                    <Footer />
-                </ThemeProvider>
+                <Cursor />
+                <Nav />
+                {children}
+                <Footer />
             </body>
         </html>
     );

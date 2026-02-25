@@ -45,10 +45,15 @@ export default function Services() {
                                     {service.desc}
                                 </p>
 
-                                <div className={`mt-auto w-full pt-6 border-t ${service.featured ? "border-gold/20" : "border-bark/10"}`}>
+                                <div className={`mt-auto w-full pt-6 border-t ${service.featured ? "border-gold/20 flex items-center justify-between" : "border-bark/10"}`}>
                                     <span className={`font-spacemono uppercase tracking-widest text-xs md:text-sm ${service.featured ? "text-gold" : "text-clay"}`}>
                                         {service.price}
                                     </span>
+                                    {service.featured && (
+                                        <a href="#contact" className="font-spacemono uppercase tracking-wide text-xs px-5 py-2.5 bg-gold text-bark rounded-full hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+                                            Launch My Landing Page →
+                                        </a>
+                                    )}
                                 </div>
 
                                 {/* Animated Bottom Border Accent */}

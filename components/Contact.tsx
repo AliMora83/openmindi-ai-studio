@@ -42,7 +42,7 @@ export default function Contact() {
                         <div>
                             <SectionLabel>Let&apos;s Talk</SectionLabel>
                             <h2 className="font-playfair font-bold text-4xl md:text-5xl text-bark mt-6 leading-tight max-w-md">
-                                Ready to build something <em className="text-clay italic pr-1">great?</em>
+                                Ready to stop losing clients to a weak website?
                             </h2>
                         </div>
 
@@ -126,7 +126,7 @@ export default function Contact() {
                                 disabled={status === "loading" || status === "success"}
                                 className={`mt-4 w-full font-spacemono uppercase tracking-wider text-sm px-8 py-5 rounded-full transition-all duration-300 ${status === "success" ? "bg-moss text-sand" : "bg-clay text-sand hover:-translate-y-1 hover:shadow-[0_8px_25px_rgba(193,98,47,0.35)]"}`}
                             >
-                                {status === "loading" ? "Sending..." : status === "success" ? "Message Sent ✓" : "Send Message →"}
+                                {status === "loading" ? "Sending..." : status === "success" ? "Message Sent ✓" : "Send My Project Brief →"}
                             </button>
 
                             {status === "error" && (

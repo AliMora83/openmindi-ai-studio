@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Github, Palette, ShoppingBag, Briefcase, MessageCircle } from "lucide-react";
-import ThemeToggle from "./ui/ThemeToggle";
 
 export default function Nav() {
     const [scrolled, setScrolled] = useState(false);
@@ -63,12 +62,11 @@ export default function Nav() {
                             ))}
                         </div>
                         <div className="flex items-center gap-4">
-                            <ThemeToggle />
                             <a
-                                href="#contact"
+                                href="https://mywork.namka.cloud/demos/website-roaster"
                                 className="font-spacemono uppercase tracking-wide text-xs px-5 py-2.5 bg-clay text-sand rounded-full hover:-translate-y-1 hover:shadow-[0_4px_14px_rgba(193,98,47,0.3)] transition-all duration-300"
                             >
-                                Start a Project
+                                Get a Free Audit →
                             </a>
                         </div>
                     </div>
@@ -76,7 +74,6 @@ export default function Nav() {
                     {/* Mobile Toggle */}
                     <div className="md:flex hidden items-center justify-end w-full md:w-auto" />
                     <div className="md:hidden flex items-center gap-4">
-                        <ThemeToggle />
                         <button
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                             className="text-bark p-2 -mr-2"
@@ -109,11 +106,11 @@ export default function Nav() {
                                 </a>
                             ))}
                             <a
-                                href="#contact"
+                                href="https://mywork.namka.cloud/demos/website-roaster"
                                 onClick={() => setMobileMenuOpen(false)}
                                 className="mt-8 font-spacemono uppercase tracking-wider text-sm px-8 py-4 bg-clay text-sand rounded-full w-full max-w-[280px] text-center"
                             >
-                                Start a Project
+                                Get a Free Audit →
                             </a>
 
                             {/* Mobile Drawer Socials Row */}

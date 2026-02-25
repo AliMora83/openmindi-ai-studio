@@ -71,10 +71,10 @@ export default function About() {
                         <RevealWrapper delay={0.1}>
                             <div className="space-y-6 font-dmsans text-muted font-light text-lg leading-[1.75]">
                                 <p>
-                                    Born Daurius Swarts — a.k.a. Ali Mora. Over a decade building brands and digital products from Bloemfontein, South Africa. What started with Adobe CC and WordPress has evolved into a full AI-powered studio: React, Next.js, and a suite of AI tools that let us ship in days what used to take weeks.
+                                    Born Daurius Swarts — a.k.a. Ali Mora. We started with WordPress but quickly realized it was too slow for the modern web. Now, we use Next.js, React, and an advanced AI stack to build platforms that look premium and run blazingly fast.
                                 </p>
                                 <p>
-                                    We partner with startups, content creators, educators, real estate firms, and FinTech brands — locally and internationally. South Africa is home. The internet is our market.
+                                    We don&apos;t just build websites; we build digital businesses. Whether you&apos;re a local Bloemfontein startup or an international brand, we deliver agency-quality work in days, not months.
                                 </p>
                             </div>
                         </RevealWrapper>

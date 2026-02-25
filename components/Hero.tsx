@@ -51,20 +51,21 @@ export default function Hero() {
                             variants={fadeUp}
                             className="text-sand font-playfair font-black text-5xl md:text-6xl lg:text-[4.8rem] leading-[1.05] tracking-tight text-balance"
                         >
-                            We build <em className="text-gold italic pr-1">faster</em> with AI.<br />
-                            You launch <em className="text-gold italic pr-1">sooner.</em>
+                            Your website should be<br />
+                            <em className="text-gold italic pr-1">winning clients.</em><br />
+                            Ours make sure it does.
                         </motion.h1>
 
                         <motion.p
                             variants={fadeUp}
                             className="font-dmsans text-sand/60 font-light text-lg leading-[1.75] max-w-[420px]"
                         >
-                            Design + React + AI. We build premium landing pages, SaaS interfaces, and Web3 platforms that look and feel world-class.
+                            Most websites look fine but convert terribly — vague copy, weak calls to action, no clear reason to choose you. We fix that. AI-powered design and React development from South Africa, delivered in days, not weeks.
                         </motion.p>
 
                         <motion.div variants={fadeUp} className="flex flex-wrap items-center gap-4 pt-2">
-                            <a href="#contact" className="font-spacemono uppercase tracking-wide text-sm px-8 py-4 bg-clay text-sand rounded-full hover:-translate-y-1 hover:shadow-[0_6px_20px_rgba(193,98,47,0.3)] transition-all duration-300">
-                                Start a Project
+                            <a href="https://mywork.namka.cloud/demos/website-roaster" className="font-spacemono uppercase tracking-wide text-sm px-8 py-4 bg-clay text-sand rounded-full hover:-translate-y-1 hover:shadow-[0_6px_20px_rgba(193,98,47,0.3)] transition-all duration-300">
+                                Get a Free AI Audit →
                             </a>
                             <a href="#projects" className="btn-ghost font-spacemono uppercase tracking-wide text-sm px-8 py-4 bg-transparent border border-sand/30 text-sand rounded-full hover:border-sand hover:bg-sand/5 transition-all duration-300">
                                 See Our Work
