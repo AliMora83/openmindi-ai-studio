@@ -37,7 +37,7 @@ export default function Process() {
                                         {step.desc}
                                     </p>
 
-                                    <div className="mt-auto relative z-10 py-1.5 px-3 bg-white/50 border border-clay/20 rounded-full font-spacemono text-[10px] md:text-xs text-clay uppercase tracking-wider backdrop-blur-sm">
+                                    <div className="service-tag mt-auto relative z-10 py-1.5 px-3 bg-white/50 border border-clay/20 rounded-full font-spacemono text-[10px] md:text-xs text-clay uppercase tracking-wider backdrop-blur-sm">
                                         {step.ai}
                                     </div>
                                 </div>

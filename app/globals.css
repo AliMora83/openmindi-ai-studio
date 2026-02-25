@@ -20,22 +20,47 @@
     }
 
     [data-theme="dark"] {
-        --sand: #1A0F0A;
-        /* mapping dusk */
+        /* User specified overrides */
+        --warm-white: #1A0F0A;
+        --cream: #2E1A0E;
+        --sand: #241308;
+        --smoke: #1E1108;
+
+        /* Keep mapping dusk */
         --clay: #C1622F;
         --ochre: #D4903A;
         --dusk: #1A0F0A;
         --bark: #F5EDD8;
         /* mapping sand text */
         --moss: #3D5A3E;
-        --cream: #2E1A0E;
-        /* mapping `--cream` to dark bark */
-        --smoke: #1A0F0A;
         --gold: #E8B84B;
-        --warm-white: #1A0F0A;
-        /* mapping `--warm-white` to dusk */
         --muted: #A89F91;
-        /* lighter muted text */
+    }
+
+    /* Dark Mode specific component overrides */
+    [data-theme="dark"] .btn-ghost {
+        border-color: rgba(245, 237, 216, 0.4);
+        color: #F5EDD8;
+    }
+
+    [data-theme="dark"] .btn-ghost:hover {
+        background: rgba(245, 237, 216, 0.08);
+        border-color: #C1622F;
+        color: #C1622F;
+    }
+
+    [data-theme="dark"] .tag-pill,
+    [data-theme="dark"] .badge-pill,
+    [data-theme="dark"] .service-tag {
+        background: rgba(193, 98, 47, 0.15);
+        border-color: rgba(193, 98, 47, 0.4);
+        color: #F5EDD8;
+    }
+
+    [data-theme="dark"] .client-service-tag {
+        background: rgba(193, 98, 47, 0.12);
+        color: #D4903A;
+        border: 1px solid rgba(193, 98, 47, 0.25);
     }
 
     body {

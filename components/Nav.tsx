@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Github, Palette, ShoppingBag, Briefcase, MessageCircle } from "lucide-react";
 import ThemeToggle from "./ui/ThemeToggle";
 
 export default function Nav() {
@@ -22,6 +22,14 @@ export default function Nav() {
         { name: "Services", href: "#services" },
         { name: "Work", href: "#clients" },
         { name: "Projects", href: "#projects" },
+    ];
+
+    const socials = [
+        { name: "WhatsApp", url: "https://api.whatsapp.com/send?phone=27789658725", icon: MessageCircle },
+        { name: "GitHub", url: "https://github.com/AliMora83", icon: Github },
+        { name: "Behance", url: "https://www.behance.net/alimora", icon: Palette },
+        { name: "Fiverr", url: "https://www.fiverr.com/s/pdRoaLN", icon: ShoppingBag },
+        { name: "Upwork", url: "https://www.upwork.com/freelancers/~010ddd737e7e58b017", icon: Briefcase },
     ];
 
     return (
@@ -107,6 +115,25 @@ export default function Nav() {
                             >
                                 Start a Project
                             </a>
+
+                            {/* Mobile Drawer Socials Row */}
+                            <div className="flex justify-center flex-row gap-3 mt-8">
+                                {socials.map((social) => {
+                                    const Icon = social.icon;
+                                    return (
+                                        <a
+                                            key={social.name}
+                                            href={social.url}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="w-9 h-9 rounded-full border border-clay flex items-center justify-center text-muted hover:bg-clay hover:text-sand hover:scale-110 transition-all duration-300"
+                                            aria-label={social.name}
+                                        >
+                                            <Icon size={16} strokeWidth={1.5} />
+                                        </a>
+                                    );
+                                })}
+                            </div>
                         </div>
                     </motion.div>
                 )}

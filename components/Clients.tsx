@@ -33,7 +33,7 @@ export default function Clients() {
 
                                 <div className="flex flex-wrap gap-2 mb-6 flex-grow items-start">
                                     {client.services.map(service => (
-                                        <span key={service} className="font-spacemono text-[10px] uppercase tracking-wider px-2.5 py-1 bg-white border border-bark/10 rounded-md text-muted/80">
+                                        <span key={service} className="client-service-tag font-spacemono text-[10px] uppercase tracking-wider px-2.5 py-1 bg-white border border-bark/10 rounded-md text-muted/80">
                                             {service}
                                         </span>
                                     ))}

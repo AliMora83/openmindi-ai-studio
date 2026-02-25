@@ -29,11 +29,11 @@ export default function Services() {
                         >
                             <div
                                 className={`group h-full p-8 md:p-10 rounded-[24px] transition-all duration-300 hover:-translate-y-1.5 focus-within:-translate-y-1.5 relative overflow-hidden flex flex-col items-start ${service.featured
-                                        ? "bg-bark text-sand hover:shadow-[0_20px_40px_rgba(46,26,14,0.15)]"
-                                        : "bg-cream border border-bark/5 hover:border-clay/50 hover:shadow-[0_12px_30px_rgba(193,98,47,0.08)]"
+                                    ? "bg-bark text-sand hover:shadow-[0_20px_40px_rgba(46,26,14,0.15)]"
+                                    : "bg-cream border border-bark/5 hover:border-clay/50 hover:shadow-[0_12px_30px_rgba(193,98,47,0.08)]"
                                     }`}
                             >
-                                <div className={`text-4xl mb-6 p-4 rounded-2xl ${service.featured ? "bg-white/5" : "bg-white shadow-sm"} inline-block`}>
+                                <div className={`text-4xl mb-6 p-4 rounded-2xl ${service.featured ? "bg-white/5" : "bg-warm-white shadow-sm"} inline-block`}>
                                     {service.icon}
                                 </div>
 

@@ -66,14 +66,14 @@ export default function Hero() {
                             <a href="#contact" className="font-spacemono uppercase tracking-wide text-sm px-8 py-4 bg-clay text-sand rounded-full hover:-translate-y-1 hover:shadow-[0_6px_20px_rgba(193,98,47,0.3)] transition-all duration-300">
                                 Start a Project
                             </a>
-                            <a href="#projects" className="font-spacemono uppercase tracking-wide text-sm px-8 py-4 bg-transparent border border-sand/30 text-sand rounded-full hover:border-sand hover:bg-sand/5 transition-all duration-300">
+                            <a href="#projects" className="btn-ghost font-spacemono uppercase tracking-wide text-sm px-8 py-4 bg-transparent border border-sand/30 text-sand rounded-full hover:border-sand hover:bg-sand/5 transition-all duration-300">
                                 See Our Work
                             </a>
                         </motion.div>
 
                         <motion.div variants={fadeUp} className="flex flex-wrap gap-3 pt-6">
                             {['React', 'Next.js', 'Brand Identity', 'Web3', 'AI-Assisted'].map(badge => (
-                                <div key={badge} className="font-spacemono uppercase text-[10px] tracking-wider px-3 py-1.5 border border-sand/20 rounded-full text-sand/70 bg-sand/5">
+                                <div key={badge} className="tag-pill font-spacemono uppercase text-[10px] tracking-wider px-3 py-1.5 border border-sand/20 rounded-full text-sand/70 bg-sand/5">
                                     {badge}
                                 </div>
                             ))}
