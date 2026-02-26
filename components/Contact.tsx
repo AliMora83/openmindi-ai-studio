@@ -51,13 +51,13 @@ export default function Contact() {
                         </p>
 
                         <div className="flex flex-col gap-4 mt-4">
-                            <a href="https://api.whatsapp.com/send?phone=27789658725" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-6 p-4 rounded-2xl hover:bg-white/40 transition-all duration-300">
+                            <a href="https://api.whatsapp.com/send?phone=27623705952" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-6 p-4 rounded-2xl hover:bg-white/40 transition-all duration-300">
                                 <div className="w-12 h-12 rounded-full bg-clay/10 text-clay group-hover:bg-clay group-hover:text-sand flex items-center justify-center transition-colors shrink-0">
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
                                 </div>
                                 <div className="flex flex-col flex-grow group-hover:pl-2 transition-all duration-300">
                                     <span className="font-spacemono text-[10px] uppercase tracking-widest text-muted">WhatsApp</span>
-                                    <span className="font-dmsans font-medium text-bark">+27 78 965 8725</span>
+                                    <span className="font-dmsans font-medium text-bark">+27 62 370 5952</span>
                                 </div>
                                 <span className="text-clay opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">→</span>
                             </a>

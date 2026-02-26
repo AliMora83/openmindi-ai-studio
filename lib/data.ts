@@ -4,7 +4,7 @@ export const services = [
         icon: "⚡",
         name: "AI-Powered Landing Pages",
         desc: "Your homepage is your first pitch. We use AI to research your market, write your copy, design your layout, and ship a React-built page that converts. Delivered in 3–5 days.",
-        price: "From $400 · 3–5 day delivery"
+        price: "From $150 · 3–5 day delivery"
     },
     {
         icon: "🎨",
