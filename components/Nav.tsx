@@ -17,10 +17,11 @@ export default function Nav() {
     }, []);
 
     const links = [
-        { name: "About", href: "#about" },
-        { name: "Services", href: "#services" },
-        { name: "Work", href: "#clients" },
-        { name: "Projects", href: "#projects" },
+        { name: "About", href: "/#about" },
+        { name: "Services", href: "/#services" },
+        { name: "Work", href: "/#clients" },
+        { name: "Projects", href: "/#projects" },
+        { name: "Articles", href: "/articles" },
     ];
 
     const socials = [

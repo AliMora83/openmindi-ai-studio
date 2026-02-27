@@ -9,6 +9,7 @@ import Testimonials from "@/components/Testimonials";
 import Testimonial from "@/components/Testimonial";
 import AiStack from "@/components/AiStack";
 import Contact from "@/components/Contact";
+import LatestThinking from "@/components/LatestThinking";
 
 export default function Home() {
     return (
@@ -23,6 +24,7 @@ export default function Home() {
             <Testimonials />
             <Testimonial />
             <AiStack />
+            <LatestThinking />
             <Contact />
         </main>
     );

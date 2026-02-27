@@ -8,7 +8,7 @@ export default function Footer() {
     ];
 
     const socials = [
-        { name: "WhatsApp", url: "https://api.whatsapp.com/send?phone=27789658725", icon: MessageCircle },
+        { name: "WhatsApp", url: "https://api.whatsapp.com/send?phone=27623705952", icon: MessageCircle },
         { name: "GitHub", url: "https://github.com/AliMora83", icon: Github },
         { name: "Behance", url: "https://www.behance.net/alimora", icon: Palette },
         { name: "Fiverr", url: "https://www.fiverr.com/s/pdRoaLN", icon: ShoppingBag },
