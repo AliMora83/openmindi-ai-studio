@@ -1,12 +1,13 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client';
 import { useState } from 'react';
 
 // ── AFFILIATE LINKS ────────────────────────────────────────────────────────
 const AFFILIATE = {
-  ghl:     'https://www.gohighlevel.com/?fp_ref=dvcb7',
-  notion:  'https://affiliate.notion.so/YOUR_LINK',
-  murf:    'https://murf.ai/?via=YOUR_LINK',
-  surfer:  'https://surferseo.com/?via=YOUR_LINK',
+  ghl: 'https://www.gohighlevel.com/?fp_ref=dvcb7',
+  notion: 'https://affiliate.notion.so/YOUR_LINK',
+  murf: 'https://murf.ai/?via=YOUR_LINK',
+  surfer: 'https://surferseo.com/?via=YOUR_LINK',
 };
 
 // ── REUSABLE COMPONENTS ────────────────────────────────────────────────────
@@ -53,8 +54,8 @@ function AffCard({ emoji, name, desc, tag, href, tagColor = '#10B981' }) {
       borderRadius: 12, padding: '16px 18px',
       textDecoration: 'none', transition: 'all 0.2s',
     }}
-    onMouseEnter={e => { e.currentTarget.style.borderColor = '#374151'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
-    onMouseLeave={e => { e.currentTarget.style.borderColor = '#1F2937'; e.currentTarget.style.transform = 'translateY(0)'; }}
+      onMouseEnter={e => { e.currentTarget.style.borderColor = '#374151'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+      onMouseLeave={e => { e.currentTarget.style.borderColor = '#1F2937'; e.currentTarget.style.transform = 'translateY(0)'; }}
     >
       <span style={{ fontSize: '1.4rem', lineHeight: 1 }}>{emoji}</span>
       <div style={{ flex: 1 }}>
@@ -108,7 +109,7 @@ function ModelCard({ name, size, use, speed, quality, privacy }) {
   const bar = (val, color) => (
     <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
       <div style={{ flex: 1, height: 4, background: '#1F2937', borderRadius: 99, overflow: 'hidden' }}>
-        <div style={{ width: `${val}%`, height: '100%', background: color, borderRadius: 99 }}/>
+        <div style={{ width: `${val}%`, height: '100%', background: color, borderRadius: 99 }} />
       </div>
       <span style={{ fontFamily: 'Syne, sans-serif', fontSize: '0.7rem', fontWeight: 600, color, width: 28, textAlign: 'right' }}>{val}%</span>
     </div>
@@ -277,8 +278,8 @@ export default function Article3Page() {
             color: '#F8FAFC', lineHeight: 1.15,
             letterSpacing: '-0.03em', marginBottom: 20,
           }}>
-            The <span style={{ color: '#10B981' }}>R15,000 PC Build</span><br/>
-            for Running Private AI<br/>
+            The <span style={{ color: '#10B981' }}>R15,000 PC Build</span><br />
+            for Running Private AI<br />
             in South Africa
           </h1>
 
