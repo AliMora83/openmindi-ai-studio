@@ -6,11 +6,11 @@ import { notFound } from "next/navigation";
 
 // Define the dummy data directly here (or ordinarily from a CMS)
 const articlesData = {
-    "why-most-landing-pages-fail": {
-        category: "CONVERSION",
-        readTime: "5 MIN READ",
-        title: "Why Most Landing Pages Fail (And What to Do About It)",
-        date: "FEB 2026",
+    "what-is-agentic-ai": {
+        category: "AGENTIC AI",
+        readTime: "8 MIN READ",
+        title: "What is Agentic AI?",
+        date: "FEB 26, 2026",
         coverGradient: "linear-gradient(135deg, #C1622F 0%, #2E1A0E 100%)",
         author: "Ali Mora",
         content: `After analysing hundreds of sites with our AI Roaster, five patterns emerge every time:
@@ -36,11 +36,11 @@ The good news: all five are fixable. We can usually address them all in 3-5 days
 
 → Run your site through our free AI Roaster to see your score.`,
     },
-    "building-with-ai-what-changed": {
+    "hire-first-ai-employee": {
         category: "AI & PROCESS",
-        readTime: "7 MIN READ",
-        title: "Building With AI: What's Actually Changed in Our Workflow",
-        date: "JAN 2026",
+        readTime: "10 MIN READ",
+        title: "Hire Your First AI Employee",
+        date: "FEB 2026",
         coverGradient: "linear-gradient(135deg, #D4903A 0%, #C1622F 60%, #1A0F0A 100%)",
         author: "Ali Mora",
         content: `A year ago, a typical project took us 3-4 weeks. Today, the same quality of work takes 5-7 days. Here's what changed:
@@ -59,11 +59,11 @@ Client relationships. Strategic thinking. Design taste. Knowing when something i
 
 The result: we charge less than agencies, deliver faster than freelancers, and produce work that's better than both.`,
     },
-    "case-study-micassa-suites": {
+    "r15k-private-ai-build-sa": {
         category: "CASE STUDY",
-        readTime: "4 MIN READ",
-        title: "Case Study: How We Built Micassa Suites' Full Brand in 5 Days",
-        date: "OCT 2024",
+        readTime: "12 MIN READ",
+        title: "R15k Private AI Build SA",
+        date: "FEB 2026",
         coverGradient: "linear-gradient(135deg, #2E1A0E 0%, #C1622F 50%, #D4903A 100%)",
         author: "Ali Mora",
         content: `CLIENT: Micassa Suites · Hospitality · Kampala, Uganda
